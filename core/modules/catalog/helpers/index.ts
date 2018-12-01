@@ -479,7 +479,7 @@ export function configureProductAsync (context, { product, configuration, select
       }
       product.is_configured = true
 
-      if (rootStore.state.config.cart.setConfigurableProductOptions && !selectDefaultVariant && !(Object.keys(configuration).length === 1 && configuration.sku)) {
+      if (rootStore.state.config.cart.setConfigurableProductOptions && selectDefaultVariant && !(Object.keys(configuration).length === 1 && configuration.sku)) {
         // the condition above: if selectDefaultVariant - then "setCurrent" is seeting the configurable options; if configuration = { sku: '' } -> this is a special case when not configuring the product but just searching by sku
         const productOption = setConfigurableProductOptionsAsync(context, { product: product, configuration: configuration }) // set the custom options
         if (productOption) {
