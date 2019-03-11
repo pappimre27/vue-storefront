@@ -1,9 +1,6 @@
 <template>
   <div class="media-gallery" :class="{'media-gallery--loaded': carouselLoaded}">
-    <div v-show="OfflineOnly">
-      <img class="offline-image" v-lazy="offline" :src="offline.src" ref="offline" alt="">
-    </div>
-    <div v-show="OnlineOnly" class="relative">
+    <div class="relative w-100">
       <product-gallery-overlay
         v-if="isZoomOpen"
         :current-slide="currentSlide"
@@ -83,6 +80,8 @@ export default {
   text-align: center;
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
   min-height: calc(90vw * 1.1);
   background-image: url('/assets/placeholder.svg');
   background-repeat: no-repeat;
