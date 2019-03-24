@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import { ActionTree } from 'vuex'
 import * as types from './mutation-types'
-import i18n from 'vue-storefront/i18n'
+import i18n from 'vue-storefront/core/i18n'
 import RootState from 'vue-storefront/core/types/RootState'
 import CheckoutState from '../../types/CheckoutState'
 import { Logger } from 'vue-storefront/core/lib/logger'

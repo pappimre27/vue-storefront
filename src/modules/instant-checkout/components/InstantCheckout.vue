@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import i18n from 'vue-storefront/i18n'
+import i18n from 'vue-storefront/core/i18n'
 import rootStore from 'vue-storefront/core/store'
 import { currentStoreView } from 'vue-storefront/core/lib/multistore'
 const storeView = currentStoreView()

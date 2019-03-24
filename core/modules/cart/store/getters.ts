@@ -1,6 +1,6 @@
 import { GetterTree } from 'vuex'
 import sumBy from 'lodash-es/sumBy'
-import i18n from 'vue-storefront/i18n'
+import i18n from 'vue-storefront/core/i18n'
 import CartState from '../types/CartState'
 import RootState from 'vue-storefront/core/types/RootState'
 import AppliedCoupon from '../types/AppliedCoupon'

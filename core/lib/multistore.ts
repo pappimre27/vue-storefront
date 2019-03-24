@@ -1,5 +1,5 @@
 import rootStore from '../store'
-import { loadLanguageAsync } from 'vue-storefront/i18n'
+import { loadLanguageAsync } from 'vue-storefront/core/i18n'
 import { initializeSyncTaskStorage } from './sync/task'
 import Vue from 'vue'
 import queryString from 'query-string'

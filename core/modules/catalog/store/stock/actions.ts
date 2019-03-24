@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import { ActionTree } from 'vuex'
-import i18n from 'vue-storefront/i18n'
+import i18n from 'vue-storefront/core/i18n'
 // requires cart module
 import * as types from 'vue-storefront/core/modules/cart/store/mutation-types'
 import RootState from 'vue-storefront/core/types/RootState'

@@ -339,7 +339,7 @@ Additional migration tips are available [here](https://github.com/DivanteLtd/vue
 ### Changed
 - `core` directory is now a `vue-storefront/core` package, webpack alias and all related imports reflect this change [#1513]
 - `core/api` renamed to `core/modules`, mixin features moved to `core/modules/module_name/features`
-- `core/lib/i18n` moved into separate `vue-storefront/i18n` package
+- `core/lib/i18n` moved into separate `vue-storefront/core/i18n` package
 
 ### Fixed
 - installer paths are now normalized (to support paths including spaces) #1645

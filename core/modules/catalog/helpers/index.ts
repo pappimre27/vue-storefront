@@ -9,7 +9,7 @@ import toString from 'lodash-es/toString'
 import union from 'lodash-es/union'
 // TODO: Remove this dependency
 import { optionLabel } from './optionLabel'
-import i18n from 'vue-storefront/i18n'
+import i18n from 'vue-storefront/core/i18n'
 import { currentStoreView } from 'vue-storefront/core/lib/multistore'
 import { getThumbnailPath } from 'vue-storefront/core/helpers'
 import { Logger } from 'vue-storefront/core/lib/logger'

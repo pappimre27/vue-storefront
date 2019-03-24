@@ -111,7 +111,7 @@
 </template>
 
 <script>
-import i18n from 'vue-storefront/i18n'
+import i18n from 'vue-storefront/core/i18n'
 import { isModuleRegistered } from 'vue-storefront/core/lib/module'
 
 import Microcart from 'vue-storefront/core/compatibility/components/blocks/Microcart/Microcart'

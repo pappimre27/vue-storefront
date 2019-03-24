@@ -1,5 +1,5 @@
 import { mapState } from 'vuex'
-import i18n from 'vue-storefront/i18n'
+import i18n from 'vue-storefront/core/i18n'
 import onEscapePress from 'vue-storefront/core/mixins/onEscapePress'
 import { prepareQuickSearchQuery } from 'vue-storefront/core/modules/catalog/queries/searchPanel'
 import RootState from 'vue-storefront/core/types/RootState'

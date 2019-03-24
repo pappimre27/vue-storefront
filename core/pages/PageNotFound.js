@@ -1,6 +1,6 @@
 import { prepareQuery } from 'vue-storefront/core/modules/catalog/queries/common'
 
-import i18n from 'vue-storefront/i18n'
+import i18n from 'vue-storefront/core/i18n'
 import EventBus from 'vue-storefront/core/compatibility/plugins/event-bus'
 
 import Composite from 'vue-storefront/core/mixins/composite'

@@ -14,7 +14,7 @@ jest.mock('vue-storefront/core/store',() => ({
   state: {}
 }));
 jest.mock('config', () => ({}));
-jest.mock('vue-storefront/i18n', () => ({ t: jest.fn(str => str) }));
+jest.mock('vue-storefront/core/i18n', () => ({ t: jest.fn(str => str) }));
 jest.mock('js-sha3',() => ({ sha3_224: jest.fn() }));
 jest.mock('vue-storefront/core/lib/multistore',() => ({
   currentStoreView: jest.fn(),

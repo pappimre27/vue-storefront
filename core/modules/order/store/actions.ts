@@ -7,7 +7,7 @@ import OrderState from '../types/OrderState'
 import { Order } from '../types/Order'
 import rootStore from 'vue-storefront/core/store'
 import { isOnline } from 'vue-storefront/core/lib/search'
-import i18n from 'vue-storefront/i18n'
+import i18n from 'vue-storefront/core/i18n'
 import { TaskQueue } from 'vue-storefront/core/lib/sync'
 import { sha3_224 } from 'js-sha3'
 

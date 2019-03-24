@@ -6,7 +6,7 @@ import { isServer } from 'vue-storefront/core/helpers'
 import { Logger } from 'vue-storefront/core/lib/logger'
 
 // Plugins
-import i18n from 'vue-storefront/i18n'
+import i18n from 'vue-storefront/core/i18n'
 import VueRouter from 'vue-router'
 import VueLazyload from 'vue-lazyload'
 import Vuelidate from 'vuelidate'
