@@ -82,7 +82,7 @@
 <script>
 import { mapState } from 'vuex'
 import SubBtn from './SubBtn.vue'
-import i18n from '@vue-storefront/i18n'
+import i18n from 'vue-storefront/i18n'
 
 export default {
   name: 'SubCategory',

@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import { ActionTree } from 'vuex'
-import i18n from '@vue-storefront/i18n'
+import i18n from 'vue-storefront/i18n'
 // requires cart module
-import * as types from '@vue-storefront/core/modules/cart/store/mutation-types'
-import RootState from '@vue-storefront/core/types/RootState'
+import * as types from 'vue-storefront/core/modules/cart/store/mutation-types'
+import RootState from 'vue-storefront/core/types/RootState'
 import StockState from '../../types/StockState'
-import rootStore from '@vue-storefront/core/store'
-import { TaskQueue } from '@vue-storefront/core/lib/sync'
-import { Logger } from '@vue-storefront/core/lib/logger'
+import rootStore from 'vue-storefront/core/store'
+import { TaskQueue } from 'vue-storefront/core/lib/sync'
+import { Logger } from 'vue-storefront/core/lib/logger'
 
 const actions: ActionTree<StockState, RootState> = {
   /**

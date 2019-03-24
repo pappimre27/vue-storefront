@@ -1,5 +1,5 @@
 import fetch from 'isomorphic-fetch'
-import { Logger } from '@vue-storefront/core/lib/logger'
+import { Logger } from 'vue-storefront/core/lib/logger'
 
 const state = {
   cmsPages: [],

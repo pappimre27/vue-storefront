@@ -1,4 +1,4 @@
-import { CategorySort } from '@vue-storefront/core/modules/catalog/components/CategorySort'
+import { CategorySort } from 'vue-storefront/core/modules/catalog/components/CategorySort'
 
 export default {
   name: 'SortBy',

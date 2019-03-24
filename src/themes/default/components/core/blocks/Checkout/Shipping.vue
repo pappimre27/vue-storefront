@@ -254,7 +254,7 @@
 
 <script>
 import { required, minLength } from 'vuelidate/lib/validators'
-import { Shipping } from '@vue-storefront/core/modules/checkout/components/Shipping'
+import { Shipping } from 'vue-storefront/core/modules/checkout/components/Shipping'
 
 import BaseCheckbox from 'theme/components/core/blocks/Form/BaseCheckbox'
 import BaseInput from 'theme/components/core/blocks/Form/BaseInput'

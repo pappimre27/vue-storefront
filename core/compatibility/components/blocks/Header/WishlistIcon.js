@@ -1,4 +1,4 @@
-import { WishlistButton } from '@vue-storefront/core/modules/wishlist/components/WishlistButton'
+import { WishlistButton } from 'vue-storefront/core/modules/wishlist/components/WishlistButton'
 export default {
   name: 'WishlistIcon',
   mixins: [ WishlistButton ],

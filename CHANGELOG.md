@@ -48,7 +48,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Payment Request API integration - @qiqqq (#2306)
-- New reactive helper to check online state. Usage: `import { onlineHelper } from '@vue-storefront/core/helpers'` and then `onlineHelper.isOnline` - @patzick (#2510)
+- New reactive helper to check online state. Usage: `import { onlineHelper } from 'vue-storefront/core/helpers'` and then `onlineHelper.isOnline` - @patzick (#2510)
 - Cart count config, allows you to display the item count instead of a sum of the item quantities - @pauluse (#2483)
 - Video support in Product Gallery component. - @rain2o (#2433)
 
@@ -89,7 +89,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Improved styles on recommendation filters, product tile and numeric input - @patzick (#2458)
 
 ### Deprecated / Removed
-- `@vue-storefront/store` package deprecated - @filrak
+- `vue-storefront/store` package deprecated - @filrak
 
 ## [1.8.2] - 2019.02.11
 - Fixed docker-compose configuration for network_mode and TS build config - @lukeromanowicz (#2415)
@@ -337,9 +337,9 @@ Additional migration tips are available [here](https://github.com/DivanteLtd/vue
 - `global.$VS` has been replaced with `rootStore` #1624
 
 ### Changed
-- `core` directory is now a `@vue-storefront/core` package, webpack alias and all related imports reflect this change [#1513]
+- `core` directory is now a `vue-storefront/core` package, webpack alias and all related imports reflect this change [#1513]
 - `core/api` renamed to `core/modules`, mixin features moved to `core/modules/module_name/features`
-- `core/lib/i18n` moved into separate `@vue-storefront/i18n` package
+- `core/lib/i18n` moved into separate `vue-storefront/i18n` package
 
 ### Fixed
 - installer paths are now normalized (to support paths including spaces) #1645

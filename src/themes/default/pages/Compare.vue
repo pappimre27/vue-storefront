@@ -68,12 +68,12 @@
 </template>
 
 <script>
-import Compare from '@vue-storefront/core/pages/Compare'
+import Compare from 'vue-storefront/core/pages/Compare'
 import Breadcrumbs from '../components/core/Breadcrumbs'
 import RemoveButton from '../components/core/blocks/Compare/RemoveButton'
 import ProductTile from '../components/core/ProductTile'
 import ProductAttribute from '../components/core/blocks/Compare/ProductAttribute'
-import i18n from '@vue-storefront/i18n'
+import i18n from 'vue-storefront/i18n'
 
 export default {
   components: {

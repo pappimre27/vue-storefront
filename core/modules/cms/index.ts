@@ -1,10 +1,10 @@
 import { cmsPageModule } from './store/page'
 import { cmsBlockModule } from './store/block'
 import { cmsHierarchyModule } from './store/hierarchy'
-import { createModule } from '@vue-storefront/core/lib/module'
+import { createModule } from 'vue-storefront/core/lib/module'
 import { beforeRegistration } from './hooks/beforeRegistration'
 import { plugin } from './store/plugin'
-import { initCacheStorage } from '@vue-storefront/core/helpers/initCacheStorage';
+import { initCacheStorage } from 'vue-storefront/core/helpers/initCacheStorage';
 
 export const KEY = 'cms'
 export const cacheStorage = initCacheStorage(KEY)

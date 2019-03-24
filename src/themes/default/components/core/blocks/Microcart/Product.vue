@@ -91,8 +91,8 @@
 </template>
 
 <script>
-import rootStore from '@vue-storefront/core/store'
-import Product from '@vue-storefront/core/compatibility/components/blocks/Microcart/Product'
+import rootStore from 'vue-storefront/core/store'
+import Product from 'vue-storefront/core/compatibility/components/blocks/Microcart/Product'
 
 import RemoveButton from './RemoveButton'
 import BaseInputNumber from 'theme/components/core/blocks/Form/BaseInputNumber'

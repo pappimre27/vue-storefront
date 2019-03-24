@@ -1,5 +1,5 @@
 import { module } from './store'
-import { createModule } from '@vue-storefront/core/lib/module'
+import { createModule } from 'vue-storefront/core/lib/module'
 
 export const KEY = 'notification'
 export const Notification = createModule({

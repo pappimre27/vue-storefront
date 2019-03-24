@@ -1,4 +1,4 @@
-import { createModule } from '@vue-storefront/core/lib/module'
+import { createModule } from 'vue-storefront/core/lib/module'
 import moduleRoutes from './router'
 
 const store = {

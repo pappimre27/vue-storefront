@@ -1,4 +1,4 @@
-import { createModule } from '@vue-storefront/core/lib/module'
+import { createModule } from 'vue-storefront/core/lib/module'
 // TODO: Move the logic to appropriate modules and deprecate this one
 
 const KEY = 'ui'

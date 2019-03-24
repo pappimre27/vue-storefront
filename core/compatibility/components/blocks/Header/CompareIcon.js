@@ -1,4 +1,4 @@
-import { CompareButton } from '@vue-storefront/core/modules/compare/components/CompareButton.ts'
+import { CompareButton } from 'vue-storefront/core/modules/compare/components/CompareButton.ts'
 
 export default {
   name: 'CompareIcon',

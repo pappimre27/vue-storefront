@@ -25,9 +25,9 @@ const themedIndexMinimal = path.join(themeRoot, '/templates/index.minimal.templa
 const themedIndexBasic = path.join(themeRoot, '/templates/index.basic.template.html')
 const themedIndexAmp = path.join(themeRoot, '/templates/index.amp.template.html')
 
-const translationPreprocessor = require('@vue-storefront/i18n/scripts/translation.preprocessor.js')
+const translationPreprocessor = require('vue-storefront/i18n/scripts/translation.preprocessor.js')
 translationPreprocessor([
-  path.resolve(__dirname, '../../node_modules/@vue-storefront/i18n/resource/i18n/'),
+  path.resolve(__dirname, '../../node_modules/vue-storefront/i18n/resource/i18n/'),
   path.resolve(__dirname, themeResources + '/i18n/')
 ], config)
 
@@ -116,7 +116,7 @@ export default {
       'theme/resource': themeResources,
 
       // Backward compatible
-      '@vue-storefront/core/store/lib/multistore' : path.resolve(__dirname, '../lib/multistore.ts'),
+      'vue-storefront/core/store/lib/multistore' : path.resolve(__dirname, '../lib/multistore.ts'),
     }
   },
   module: {
@@ -147,7 +147,7 @@ export default {
         test: /\.js$/,
         loader: 'babel-loader',
         include: [
-          path.resolve(__dirname, '../../node_modules/@vue-storefront'),
+          path.resolve(__dirname, '../../node_modules/vue-storefront'),
           path.resolve(__dirname, '../../src'),
           path.resolve(__dirname, '../../core')
         ]

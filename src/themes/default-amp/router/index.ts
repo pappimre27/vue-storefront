@@ -1,4 +1,4 @@
-// import router from '@vue-storefront/core/router'
+// import router from 'vue-storefront/core/router'
 // uncomment if you want to modify the router e.g. add before/after hooks
 import Category from '../pages/Category.vue'
 import Product from '../pages/Product.vue'

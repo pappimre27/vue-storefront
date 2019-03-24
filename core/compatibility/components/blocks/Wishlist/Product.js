@@ -1,4 +1,4 @@
-import { WishlistProduct } from '@vue-storefront/core/modules/wishlist/components/Product'
+import { WishlistProduct } from 'vue-storefront/core/modules/wishlist/components/Product'
 export default {
   name: 'Product',
   methods: {

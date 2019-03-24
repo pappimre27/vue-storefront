@@ -23,9 +23,9 @@
 </template>
 
 <script>
-import { ProductGallery } from '@vue-storefront/core/modules/catalog/components/ProductGallery.ts'
+import { ProductGallery } from 'vue-storefront/core/modules/catalog/components/ProductGallery.ts'
 import ProductGalleryOverlay from './ProductGalleryOverlay'
-import onEscapePress from '@vue-storefront/core/mixins/onEscapePress'
+import onEscapePress from 'vue-storefront/core/mixins/onEscapePress'
 import NoSSR from 'vue-no-ssr'
 const ProductGalleryCarousel = () => import(/* webpackChunkName: "vsf-product-gallery-carousel" */ './ProductGalleryCarousel.vue')
 

@@ -1,7 +1,7 @@
 import { module } from './store'
 import { plugin } from './store/plugin'
-import { createModule } from '@vue-storefront/core/lib/module'
-import { initCacheStorage } from '@vue-storefront/core/helpers/initCacheStorage'
+import { createModule } from 'vue-storefront/core/lib/module'
+import { initCacheStorage } from 'vue-storefront/core/helpers/initCacheStorage'
 
 export const KEY = 'wishlist'
 export const cacheStorage = initCacheStorage(KEY)

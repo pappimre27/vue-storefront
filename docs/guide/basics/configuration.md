@@ -634,7 +634,7 @@ This property is used by the mailchimp extension (See [src/extensions](https://g
 ## Theme
 
 ```json
-"theme": "@vue-storefront/theme-default",
+"theme": "vue-storefront/theme-default",
 ```
 
 This is the currently applied theme path. After changing it Vue Storefront need to be rebuilt.

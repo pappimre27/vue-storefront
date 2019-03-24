@@ -12,8 +12,8 @@
 </template>
 
 <script>
-import GenericSelector from '@vue-storefront/core/compatibility/components/GenericSelector'
-import rootStore from '@vue-storefront/core/store'
+import GenericSelector from 'vue-storefront/core/compatibility/components/GenericSelector'
+import rootStore from 'vue-storefront/core/store'
 export default {
   mixins: [GenericSelector],
   methods: {

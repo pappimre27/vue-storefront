@@ -9,7 +9,7 @@ if (detectInstalled.sync(config.theme, { local: true })) {
   themePath = path.resolve(__dirname, '../../node_modules/' + themeName)
 }
 else {
-  themeName = themeName.replace('@vue-storefront/theme-', '')
+  themeName = themeName.replace('vue-storefront/theme-', '')
   themePath = path.resolve(__dirname, '../../src/themes/' + themeName)
 }
 

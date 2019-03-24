@@ -48,8 +48,8 @@
 </template>
 
 <script>
-import rootStore from '@vue-storefront/core/store'
-import { ProductTile } from '@vue-storefront/core/modules/catalog/components/ProductTile.ts'
+import rootStore from 'vue-storefront/core/store'
+import { ProductTile } from 'vue-storefront/core/modules/catalog/components/ProductTile.ts'
 
 export default {
   mixins: [ProductTile],

@@ -29,11 +29,11 @@
 
 <script>
 // query constructor
-import { prepareQuery } from '@vue-storefront/core/modules/catalog/queries/common'
-import { isServer } from '@vue-storefront/core/helpers'
+import { prepareQuery } from 'vue-storefront/core/modules/catalog/queries/common'
+import { isServer } from 'vue-storefront/core/helpers'
 
 // Core pages
-import Home from '@vue-storefront/core/pages/Home'
+import Home from 'vue-storefront/core/pages/Home'
 
 // Theme core components
 import ProductListing from 'theme/components/core/ProductListing'
@@ -43,7 +43,7 @@ import HeadImage from 'theme/components/core/blocks/MainSlider/HeadImage'
 import Onboard from 'theme/components/theme/blocks/Home/Onboard'
 import PromotedOffers from 'theme/components/theme/blocks/PromotedOffers/PromotedOffers'
 import TileLinks from 'theme/components/theme/blocks/TileLinks/TileLinks'
-import { Logger } from '@vue-storefront/core/lib/logger'
+import { Logger } from 'vue-storefront/core/lib/logger'
 export default {
   mixins: [Home],
   components: {

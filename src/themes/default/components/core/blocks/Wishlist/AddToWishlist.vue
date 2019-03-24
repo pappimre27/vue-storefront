@@ -11,9 +11,9 @@
 </template>
 
 <script>
-import { IsOnWishlist } from '@vue-storefront/core/modules/wishlist/components/IsOnWishlist'
-import { AddToWishlist } from '@vue-storefront/core/modules/wishlist/components/AddToWishlist'
-import { RemoveFromWishlist } from '@vue-storefront/core/modules/wishlist/components/RemoveFromWishlist'
+import { IsOnWishlist } from 'vue-storefront/core/modules/wishlist/components/IsOnWishlist'
+import { AddToWishlist } from 'vue-storefront/core/modules/wishlist/components/AddToWishlist'
+import { RemoveFromWishlist } from 'vue-storefront/core/modules/wishlist/components/RemoveFromWishlist'
 
 export default {
   mixins: [ IsOnWishlist, AddToWishlist, RemoveFromWishlist ],

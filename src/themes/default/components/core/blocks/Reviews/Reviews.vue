@@ -105,8 +105,8 @@ import BaseInput from 'theme/components/core/blocks/Form/BaseInput'
 import BaseTextarea from 'theme/components/core/blocks/Form/BaseTextarea'
 import ButtonFull from 'theme/components/theme/ButtonFull'
 import ReviewsList from 'theme/components/theme/blocks/Reviews/ReviewsList'
-import { Reviews } from '@vue-storefront/core/modules/review/components/Reviews'
-import { AddReview } from '@vue-storefront/core/modules/review/components/AddReview'
+import { Reviews } from 'vue-storefront/core/modules/review/components/Reviews'
+import { AddReview } from 'vue-storefront/core/modules/review/components/AddReview'
 export default {
   name: 'Reviews',
   data () {

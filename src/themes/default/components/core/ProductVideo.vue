@@ -23,7 +23,7 @@
 
 <script>
 import LoaderScoped from 'theme/components/core/LoaderScoped.vue'
-import { ProductVideo } from '@vue-storefront/core/modules/catalog/components/ProductVideo.ts'
+import { ProductVideo } from 'vue-storefront/core/modules/catalog/components/ProductVideo.ts'
 
 export default {
   components: {

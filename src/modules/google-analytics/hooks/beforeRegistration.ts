@@ -1,6 +1,6 @@
 import VueAnalytics from 'vue-analytics'
-import { router } from '@vue-storefront/core/app'
-import { Logger } from '@vue-storefront/core/lib/logger'
+import { router } from 'vue-storefront/core/app'
+import { Logger } from 'vue-storefront/core/lib/logger'
 
 export function beforeRegistration({ Vue, config, store, isServer }) {
   if (config.analytics.id && !isServer) {

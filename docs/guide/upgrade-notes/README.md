@@ -7,7 +7,7 @@ We're trying to keep the upgrade process as easy as it's possible. Unfortunately
 
 The proces of creating new module with factory method and looks like following:
 ````js
-import { createModule } from '@vue-storefront/core/lib/module'
+import { createModule } from 'vue-storefront/core/lib/module'
 
 const moduleConfig: VueStorefrontModuleConfig = { 
   // VS module config 
@@ -15,7 +15,7 @@ const moduleConfig: VueStorefrontModuleConfig = {
 
 const module = createModule(moduleConfig)
 ````
-- `@vue-storefront/store` package has been depreciated. Just change imports to `@vue-storefront/core/store`.
+- `vue-storefront/store` package has been depreciated. Just change imports to `vue-storefront/core/store`.
 ## 1.7 -> 1.8
 Full changelog is available [here](https://github.com/DivanteLtd/vue-storefront/blob/master/CHANGELOG.md)
 
@@ -98,7 +98,7 @@ If you haven't modified any extensions directly you don't need to change anythin
 
 - Old event bus is moved to the compatibility folder. From now we are trying to create new features without it and slowly depreciate event bus whenever it's possible. It'll be replaced with some enhanced module-based mechanism with event autosuggestion support.
 
-change all `@vue-storefront/core/plugins/event-bus` imports to `@vue-storefront/core/compatibility/plugins/event-bus`
+change all `vue-storefront/core/plugins/event-bus` imports to `vue-storefront/core/compatibility/plugins/event-bus`
 
 #### Components that were moved or API was changed and the compatibility component was created.
 
@@ -261,13 +261,13 @@ We've added the Reviews support, however, Magento2 is still lacking Reviews supp
 
 To get access to rootStore import it by
 
-`import rootStore from '@vue-storefront/core/store'`
+`import rootStore from 'vue-storefront/core/store'`
 
 #### cms extenstion was renamed to extension-magento2-cms
 
 Import of CmsData must be changed in `CustomCmsPage.vue` component to:
 
-`import CmsData from '@vue-storefront/extension-magento2-cms/components/CmsData'`
+`import CmsData from 'vue-storefront/extension-magento2-cms/components/CmsData'`
 
 ## 1.1 -> 1.2 ([release notes](https://github.com/DivanteLtd/vue-storefront/releases/tag/v1.2.0))
 
@@ -329,7 +329,7 @@ You should replace the mixin declarations from the previous version:
 
 ```vue
 <script>
-import { coreComponent } from '@vue-storefront/core/lib/themes';
+import { coreComponent } from 'vue-storefront/core/lib/themes';
 
 export default {
   mixins: [coreComponent('blocks/MyAccount/MyOrders')],
@@ -341,7 +341,7 @@ to
 
 ```vue
 <script>
-import MyOrders from '@vue-storefront/core/components/blocks/MyAccount/MyOrders';
+import MyOrders from 'vue-storefront/core/components/blocks/MyAccount/MyOrders';
 
 export default {
   mixins: [MyOrders],

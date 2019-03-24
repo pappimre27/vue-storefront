@@ -1,5 +1,5 @@
 import config from 'config'
-import i18n from '@vue-storefront/i18n'
+import i18n from 'vue-storefront/i18n'
 import MailItem from '../types/MailItem'
 import { Module } from 'vuex'
 

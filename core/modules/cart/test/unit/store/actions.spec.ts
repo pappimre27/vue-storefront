@@ -3,39 +3,39 @@ import Vue from 'vue'
 import * as types from '../../../store/mutation-types';
 import cartActions from '../../../store/actions';
 import config from 'config';
-import rootStore from '@vue-storefront/core/store';
+import rootStore from 'vue-storefront/core/store';
 import { sha3_224 } from 'js-sha3';
 import { TaskQueue } from "../../../../../lib/sync";
-import * as coreHelper from '@vue-storefront/core/helpers';
-import { currentStoreView } from '@vue-storefront/core/lib/multistore';
+import * as coreHelper from 'vue-storefront/core/helpers';
+import { currentStoreView } from 'vue-storefront/core/lib/multistore';
 
-jest.mock('@vue-storefront/core/store',() => ({
+jest.mock('vue-storefront/core/store',() => ({
   dispatch: jest.fn(),
   state: {}
 }));
 jest.mock('config', () => ({}));
-jest.mock('@vue-storefront/i18n', () => ({ t: jest.fn(str => str) }));
+jest.mock('vue-storefront/i18n', () => ({ t: jest.fn(str => str) }));
 jest.mock('js-sha3',() => ({ sha3_224: jest.fn() }));
-jest.mock('@vue-storefront/core/lib/multistore',() => ({
+jest.mock('vue-storefront/core/lib/multistore',() => ({
   currentStoreView: jest.fn(),
   localizedRoute: jest.fn()
 }));
-jest.mock('@vue-storefront/core/lib/logger', () => ({
+jest.mock('vue-storefront/core/lib/logger', () => ({
   Logger: {
     log: jest.fn(() => () => {}),
     debug: jest.fn(() => () => {})
   }
 }));
-jest.mock('@vue-storefront/core/lib/sync', () => ({ TaskQueue: {
+jest.mock('vue-storefront/core/lib/sync', () => ({ TaskQueue: {
   execute: jest.fn()
 }}));
-jest.mock('@vue-storefront/core/app', () => ({ router: jest.fn() }));
-jest.mock('@vue-storefront/core/helpers', () => ({
+jest.mock('vue-storefront/core/app', () => ({ router: jest.fn() }));
+jest.mock('vue-storefront/core/helpers', () => ({
   get isServer() {
     return true
   }
 }));
-jest.mock('@vue-storefront/core/lib/search/searchQuery', () => jest.fn());
+jest.mock('vue-storefront/core/lib/search/searchQuery', () => jest.fn());
 
 Vue.prototype.$bus = {
   $emit: jest.fn()

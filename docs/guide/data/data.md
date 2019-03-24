@@ -107,9 +107,9 @@ Here you have an example on how the Vuex store should be constructed. Please not
 
 ```js
 import * as types from '../mutation-types';
-import { ValidationError } from '@vue-storefront/core/store/lib/exceptions';
+import { ValidationError } from 'vue-storefront/core/store/lib/exceptions';
 import * as entities from '../../lib/entities';
-import * as sw from '@vue-storefront/core/lib/sw';
+import * as sw from 'vue-storefront/core/lib/sw';
 import config from '../../config';
 const Ajv = require('ajv'); // json validator
 

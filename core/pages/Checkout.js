@@ -1,13 +1,13 @@
 import Vue from 'vue'
-import i18n from '@vue-storefront/i18n'
-import store from '@vue-storefront/core/store'
+import i18n from 'vue-storefront/i18n'
+import store from 'vue-storefront/core/store'
 import VueOfflineMixin from 'vue-offline/mixin'
 import { mapGetters } from 'vuex'
 
-import Composite from '@vue-storefront/core/mixins/composite'
-import { currentStoreView } from '@vue-storefront/core/lib/multistore'
-import { isServer } from '@vue-storefront/core/helpers'
-import { Logger } from '@vue-storefront/core/lib/logger'
+import Composite from 'vue-storefront/core/mixins/composite'
+import { currentStoreView } from 'vue-storefront/core/lib/multistore'
+import { isServer } from 'vue-storefront/core/helpers'
+import { Logger } from 'vue-storefront/core/lib/logger'
 
 export default {
   name: 'Checkout',

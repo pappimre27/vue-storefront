@@ -1,4 +1,4 @@
-import { MicrocartButton } from '@vue-storefront/core/modules/cart/components/MicrocartButton.ts'
+import { MicrocartButton } from 'vue-storefront/core/modules/cart/components/MicrocartButton.ts'
 
 export default {
   methods: {

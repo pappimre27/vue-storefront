@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import { ActionTree } from 'vuex'
 import * as types from './mutation-types'
-import { htmlDecode } from '@vue-storefront/core/store/lib/filters'
-import i18n from '@vue-storefront/i18n'
-import rootStore from '@vue-storefront/core/store'
-import RootState from '@vue-storefront/core/types/RootState'
+import { htmlDecode } from 'vue-storefront/core/store/lib/filters'
+import i18n from 'vue-storefront/i18n'
+import rootStore from 'vue-storefront/core/store'
+import RootState from 'vue-storefront/core/types/RootState'
 import CompareState from '../types/CompareState'
 import { cacheStorage } from '../'
-import { Logger } from '@vue-storefront/core/lib/logger'
+import { Logger } from 'vue-storefront/core/lib/logger'
 const actions: ActionTree<CompareState, RootState> = {
   load ({ commit, getters }, force: boolean = false) {
     if (!force && getters.isCompareLoaded) return

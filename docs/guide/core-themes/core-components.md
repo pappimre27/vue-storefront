@@ -28,7 +28,7 @@ To inherit from core component:
 2. **Import the core component that you want to inherit from:**
 
 ```js
-import YourCoreComponent from '@vue-storefront/core/modules/{module_name}/YourCoreComponent';
+import YourCoreComponent from 'vue-storefront/core/modules/{module_name}/YourCoreComponent';
 ```
 
 3. **Add core components mixin to your newly created theme component:**
@@ -47,7 +47,7 @@ From now you can access and override all methods, data and components from core 
 Inheritance in pages works exactly like in other components. The only difference is the importing alias. Instead of `core/components` we need to start with `core/pages` alias
 
 ```js
-import YourCorePage from '@vue-storefront/core/pages/YourCorePage'
+import YourCorePage from 'vue-storefront/core/pages/YourCorePage'
 
 export default {
   ...
@@ -62,7 +62,7 @@ Core pages are placed in `core/pages` folder.
 Since core components are just plain JavaScript objects you can easily modify them before mixing in in your theme.
 
 ```js
-import YourCorePage from '@vue-storefront/core/pages/YourCorePage'
+import YourCorePage from 'vue-storefront/core/pages/YourCorePage'
 
 YourCorePage.methods.foo = function () { Logger.log('Overrided method foo')()
 

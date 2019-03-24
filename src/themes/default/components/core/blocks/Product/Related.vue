@@ -19,9 +19,9 @@
 <script>
 import ProductListing from 'theme/components/core/ProductListing'
 
-import { prepareRelatedQuery } from '@vue-storefront/core/modules/catalog/queries/related'
-import i18n from '@vue-storefront/i18n'
-import store from '@vue-storefront/core/store'
+import { prepareRelatedQuery } from 'vue-storefront/core/modules/catalog/queries/related'
+import i18n from 'vue-storefront/i18n'
+import store from 'vue-storefront/core/store'
 
 export default {
   name: 'Related',

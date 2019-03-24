@@ -1,10 +1,10 @@
-import { setupMultistoreRoutes } from '@vue-storefront/core/lib/multistore'
+import { setupMultistoreRoutes } from 'vue-storefront/core/lib/multistore'
 import App from './App.vue'
 import routes from './router'
 import Vue from 'vue'
 import VueProgressBar from 'vue-progressbar'
-import '@vue-storefront/core/lib/passive-listeners'
-import { RouterManager } from '@vue-storefront/core/lib/router-manager'
+import 'vue-storefront/core/lib/passive-listeners'
+import { RouterManager } from 'vue-storefront/core/lib/router-manager'
 Vue.use(VueProgressBar)
 
 const themeEntry = App

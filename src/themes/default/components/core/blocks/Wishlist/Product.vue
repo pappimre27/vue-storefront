@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import Product from '@vue-storefront/core/compatibility/components/blocks/Wishlist/Product'
+import Product from 'vue-storefront/core/compatibility/components/blocks/Wishlist/Product'
 import RemoveButton from './RemoveButton'
 
 export default {

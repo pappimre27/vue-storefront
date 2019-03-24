@@ -1,4 +1,4 @@
-import { formatCategoryLink } from '@vue-storefront/core/modules/url/helpers'
+import { formatCategoryLink } from 'vue-storefront/core/modules/url/helpers'
 
 // Duplicate of breadCrumbRoutes, to repalce it soon. 
 /** Parse category path for product/category  */

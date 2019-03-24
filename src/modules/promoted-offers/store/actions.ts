@@ -1,7 +1,7 @@
 import { ActionTree } from 'vuex'
-import RootState from '@vue-storefront/core/types/RootState'
+import RootState from 'vue-storefront/core/types/RootState'
 import PromotedOffersState from '../types/PromotedOffersState'
-import { Logger } from '@vue-storefront/core/lib/logger'
+import { Logger } from 'vue-storefront/core/lib/logger'
 
 const actions: ActionTree<PromotedOffersState, RootState> = {
   async updatePromotedOffers ({commit, rootState}, data) {

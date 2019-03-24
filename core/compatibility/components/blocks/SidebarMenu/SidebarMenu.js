@@ -1,6 +1,6 @@
 import { mapState, mapGetters } from 'vuex'
-import onEscapePress from '@vue-storefront/core/mixins/onEscapePress'
-import { CompareButton } from '@vue-storefront/core/modules/compare/components/CompareButton.ts'
+import onEscapePress from 'vue-storefront/core/mixins/onEscapePress'
+import { CompareButton } from 'vue-storefront/core/modules/compare/components/CompareButton.ts'
 
 // deprecated as theme-specific
 export default {

@@ -1,5 +1,5 @@
-import { Logger } from '@vue-storefront/core/lib/logger'
-import { router } from '@vue-storefront/core/app'
+import { Logger } from 'vue-storefront/core/lib/logger'
+import { router } from 'vue-storefront/core/app'
 import VueRouter, { RouteConfig } from 'vue-router'
 
 const RouterManager = {

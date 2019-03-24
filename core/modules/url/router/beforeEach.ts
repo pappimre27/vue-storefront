@@ -2,11 +2,11 @@
 // It's important to have 'next()'. It enables navigation to new route.
 // See https://router.vuejs.org/guide/advanced/navigation-guards.html#global-guards
 import { Route } from 'vue-router'
-import store from '@vue-storefront/core/store'
-import { Logger } from '@vue-storefront/core/lib/logger'
+import store from 'vue-storefront/core/store'
+import { Logger } from 'vue-storefront/core/lib/logger'
 import { processDynamicRoute, normalizeUrlPath } from '../helpers'
-import { isServer } from '@vue-storefront/core/helpers'
-import { storeCodeFromRoute, prepareStoreView, currentStoreView, LocalizedRoute } from '@vue-storefront/core/lib/multistore'
+import { isServer } from 'vue-storefront/core/helpers'
+import { storeCodeFromRoute, prepareStoreView, currentStoreView, LocalizedRoute } from 'vue-storefront/core/lib/multistore'
 import Vue from 'vue'
 
 export const UrlDispatchMapper = async (to) => {

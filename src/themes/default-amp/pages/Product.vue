@@ -126,7 +126,7 @@
 </template>
 
 <script>
-import Product from '@vue-storefront/core/pages/Product'
+import Product from 'vue-storefront/core/pages/Product'
 import RelatedProducts from 'theme/components/core/blocks/Product/Related.vue'
 import GenericSelector from 'theme/components/core/GenericSelector'
 import ColorSelector from 'theme/components/core/ColorSelector.vue'

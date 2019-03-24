@@ -1,4 +1,4 @@
-import { isServer } from '@vue-storefront/core/helpers'
+import { isServer } from 'vue-storefront/core/helpers'
 
 /**
  * @param {string} level available options: 'no-console', 'only-errors', 'all'

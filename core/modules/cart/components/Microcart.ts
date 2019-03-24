@@ -1,5 +1,5 @@
 import AppliedCoupon from '../types/AppliedCoupon'
-import Product from '@vue-storefront/core/modules/catalog/types/Product'
+import Product from 'vue-storefront/core/modules/catalog/types/Product'
 import CartTotalSegments from '../types/CartTotalSegments'
 
 export const Microcart = {

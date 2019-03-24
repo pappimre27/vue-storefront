@@ -1,4 +1,4 @@
-import { UserAccount } from '@vue-storefront/core/modules/user/components/UserAccount'
+import { UserAccount } from 'vue-storefront/core/modules/user/components/UserAccount'
 
 // Component deprecated, now in User module
 

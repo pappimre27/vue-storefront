@@ -2,7 +2,7 @@ import {shallowMount} from '@vue/test-utils'
 
 import { CartSummary } from '../../../components/CartSummary'
 
-jest.mock('@vue-storefront/core/compatibility/components/blocks/Microcart/Microcart');
+jest.mock('vue-storefront/core/compatibility/components/blocks/Microcart/Microcart');
 
 describe('CartSummary', () => {
 

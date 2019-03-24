@@ -1,5 +1,5 @@
-import EventBus from '@vue-storefront/core/compatibility/plugins/event-bus'
-import { Logger } from '@vue-storefront/core/lib/logger'
+import EventBus from 'vue-storefront/core/compatibility/plugins/event-bus'
+import { Logger } from 'vue-storefront/core/lib/logger'
 
 // to be deprecated
 export default {

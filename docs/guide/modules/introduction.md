@@ -236,7 +236,7 @@ Let's see an example and assume we want to extend module `cart` by overriding it
 
 
 ```js
-import { Cart } from '@vue-storefront/core/modules/cart'
+import { Cart } from 'vue-storefront/core/modules/cart'
 
 // 1. Preparation of new VSMConfig
 const extendCartVuex = {
@@ -266,7 +266,7 @@ export const registerModules: VueStorefrontModule[] = [Cart]
 If you want to make complex changes with your own app-specific VS module (which is not an npm package) it's a good practice to keep this module inside `src/modules/{module-name}`. To extend module with another module just pass it's config to `extendModule` function
 
 ```js
-import { Cart } from '@vue-storefront/core/modules/cart'
+import { Cart } from 'vue-storefront/core/modules/cart'
 import { ExtendCartModule } from 'extend-cart';
 
 

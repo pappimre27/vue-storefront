@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import { MutationTree } from 'vuex'
 import * as types from './mutation-types'
-import * as entities from '@vue-storefront/core/store/lib/entities'
+import * as entities from 'vue-storefront/core/store/lib/entities'
 import OrderState from '../types/OrderState'
-import rootStore from '@vue-storefront/core/store'
-import { Logger } from '@vue-storefront/core/lib/logger'
+import rootStore from 'vue-storefront/core/store'
+import { Logger } from 'vue-storefront/core/lib/logger'
 
 const mutations: MutationTree<OrderState> = {
   /**

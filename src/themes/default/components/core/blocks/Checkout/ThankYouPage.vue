@@ -73,13 +73,13 @@
 </template>
 
 <script>
-import Composite from '@vue-storefront/core/mixins/composite'
+import Composite from 'vue-storefront/core/mixins/composite'
 import Breadcrumbs from 'theme/components/core/Breadcrumbs'
 import BaseTextarea from 'theme/components/core/blocks/Form/BaseTextarea'
 import ButtonOutline from 'theme/components/theme/ButtonOutline'
 import VueOfflineMixin from 'vue-offline/mixin'
-import { EmailForm } from '@vue-storefront/core/modules/mailer/components/EmailForm'
-import { isServer } from '@vue-storefront/core/helpers'
+import { EmailForm } from 'vue-storefront/core/modules/mailer/components/EmailForm'
+import { isServer } from 'vue-storefront/core/helpers'
 
 export default {
   name: 'ThankYouPage',

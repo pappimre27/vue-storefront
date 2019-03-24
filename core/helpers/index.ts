@@ -1,8 +1,8 @@
-import rootStore from '@vue-storefront/core/store'
-import SearchQuery from '@vue-storefront/core/lib/search/searchQuery'
+import rootStore from 'vue-storefront/core/store'
+import SearchQuery from 'vue-storefront/core/lib/search/searchQuery'
 import { remove as removeAccents } from 'remove-accents'
-import { Logger } from '@vue-storefront/core/lib/logger'
-import { formatCategoryLink } from '@vue-storefront/core/modules/url/helpers'
+import { Logger } from 'vue-storefront/core/lib/logger'
+import { formatCategoryLink } from 'vue-storefront/core/modules/url/helpers'
 import Vue from 'vue'
 
 /**

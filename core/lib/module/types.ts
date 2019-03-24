@@ -1,7 +1,7 @@
 import { Module, Store } from 'vuex'
 import { RouteConfig, NavigationGuard } from 'vue-router'
 import { VueConstructor } from 'vue'
-import RootState from '@vue-storefront/core/types/RootState'
+import RootState from 'vue-storefront/core/types/RootState'
 
 interface VSF {
   Vue?: VueConstructor, 

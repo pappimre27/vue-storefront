@@ -1,8 +1,8 @@
 import cartGetters from '../../../store/getters';
-import { onlineHelper } from '@vue-storefront/core/helpers'
+import { onlineHelper } from 'vue-storefront/core/helpers'
 
-jest.mock('@vue-storefront/i18n', () => ({ t: jest.fn(str => str) }));
-jest.mock('@vue-storefront/core/helpers', () => ({
+jest.mock('vue-storefront/i18n', () => ({ t: jest.fn(str => str) }));
+jest.mock('vue-storefront/core/helpers', () => ({
   onlineHelper: {
     get isOnline() {
       return true

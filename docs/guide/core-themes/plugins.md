@@ -16,7 +16,7 @@ Vue Storefront code is actually executed two times - once on the server side to 
 To make sure your plugin is registered only on client side you can use `isServer` helper.
 
 ````js
-import { isServer } from '@vue-storefront/core/helpers'
+import { isServer } from 'vue-storefront/core/helpers'
 import SomePlugin from 'some-plugin'
 
 if (!isServer ) Vue.use(SomePlugin)

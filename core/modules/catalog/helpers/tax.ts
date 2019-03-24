@@ -1,4 +1,4 @@
-import { Logger } from '@vue-storefront/core/lib/logger'
+import { Logger } from 'vue-storefront/core/lib/logger'
 
 function isSpecialPriceActive(fromDate, toDate) {
   const now = new Date()

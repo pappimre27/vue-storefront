@@ -1,4 +1,4 @@
-import { buildFilterProductsQuery } from '@vue-storefront/core/helpers'
+import { buildFilterProductsQuery } from 'vue-storefront/core/helpers'
 import { mapGetters } from 'vuex';
 
 export default {

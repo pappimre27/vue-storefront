@@ -1,4 +1,4 @@
-import { Search } from '@vue-storefront/core/modules/catalog/components/Search'
+import { Search } from 'vue-storefront/core/modules/catalog/components/Search'
 
 // Moved to search module
 export default {

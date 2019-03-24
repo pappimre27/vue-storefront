@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import { isServer } from '@vue-storefront/core/helpers'
+import { isServer } from 'vue-storefront/core/helpers'
 
 export default {
   name: 'WebShare',

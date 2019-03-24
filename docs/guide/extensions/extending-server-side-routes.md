@@ -27,4 +27,4 @@ module.exports = expressApp => {
 
 ## Data operations inside Express routes
 
-Unfortunately, as you've may seen above the `core/scripts/server.js`, all modules used by the script (including the dynamic routes) can not use ES modules (`import ... from ...` type of statements). By this limitation you can't currently use `@vue-storefront` modules inside the custom Express.js routes as they're not compiled to the CommonJS. This is probably to be fixed. To get the data you may execute `fetch()` requests to the `vue-storefront-api` endpoints. You can still use `const config = require('config')` to read the endpoints URLs etc.
+Unfortunately, as you've may seen above the `core/scripts/server.js`, all modules used by the script (including the dynamic routes) can not use ES modules (`import ... from ...` type of statements). By this limitation you can't currently use `vue-storefront` modules inside the custom Express.js routes as they're not compiled to the CommonJS. This is probably to be fixed. To get the data you may execute `fetch()` requests to the `vue-storefront-api` endpoints. You can still use `const config = require('config')` to read the endpoints URLs etc.

@@ -2,19 +2,19 @@ import Vue from 'vue'
 import * as localForage from 'localforage'
 import union from 'lodash-es/union'
 
-import { createApp } from '@vue-storefront/core/app'
-import EventBus from '@vue-storefront/core/compatibility/plugins/event-bus/index'
-import rootStore from '@vue-storefront/core/store'
+import { createApp } from 'vue-storefront/core/app'
+import EventBus from 'vue-storefront/core/compatibility/plugins/event-bus/index'
+import rootStore from 'vue-storefront/core/store'
 
 import buildTimeConfig from 'config'
-import { execute } from '@vue-storefront/core/lib/sync/task'
-import UniversalStorage from '@vue-storefront/core/store/lib/storage'
-import i18n from '@vue-storefront/i18n'
-import { prepareStoreView, storeCodeFromRoute, currentStoreView, localizedRoute } from '@vue-storefront/core/lib/multistore'
-import { onNetworkStatusChange } from '@vue-storefront/core/modules/offline-order/helpers/onNetworkStatusChange'
-import '@vue-storefront/core/service-worker/registration' // register the service worker
+import { execute } from 'vue-storefront/core/lib/sync/task'
+import UniversalStorage from 'vue-storefront/core/store/lib/storage'
+import i18n from 'vue-storefront/i18n'
+import { prepareStoreView, storeCodeFromRoute, currentStoreView, localizedRoute } from 'vue-storefront/core/lib/multistore'
+import { onNetworkStatusChange } from 'vue-storefront/core/modules/offline-order/helpers/onNetworkStatusChange'
+import 'vue-storefront/core/service-worker/registration' // register the service worker
 import { AsyncDataLoader } from './lib/async-data-loader'
-import { Logger } from '@vue-storefront/core/lib/logger'
+import { Logger } from 'vue-storefront/core/lib/logger'
 declare var window: any
 
 const invokeClientEntry = async () => {

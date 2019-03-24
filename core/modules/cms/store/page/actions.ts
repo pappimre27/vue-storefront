@@ -1,12 +1,12 @@
 import { ActionTree } from "vuex"
-import { quickSearchByQuery } from '@vue-storefront/core/lib/search'
+import { quickSearchByQuery } from 'vue-storefront/core/lib/search'
 import * as types from './mutation-types'
-import SearchQuery from '@vue-storefront/core/lib/search/searchQuery'
-import RootState from '@vue-storefront/core/types/RootState';
+import SearchQuery from 'vue-storefront/core/lib/search/searchQuery'
+import RootState from 'vue-storefront/core/types/RootState';
 import CmsPageState from "../../types/CmsPageState"
 import { cacheStorage  } from '../../'
 import { cmsPagesStorageKey } from './'
-import { Logger } from '@vue-storefront/core/lib/logger'
+import { Logger } from 'vue-storefront/core/lib/logger'
 
 const actions: ActionTree<CmsPageState, RootState> = {
 

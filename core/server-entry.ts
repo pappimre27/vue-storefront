@@ -1,13 +1,13 @@
 import union from 'lodash-es/union'
 
-import { createApp } from '@vue-storefront/core/app'
-import { HttpError } from '@vue-storefront/core/helpers/exceptions'
-import { prepareStoreView, storeCodeFromRoute } from '@vue-storefront/core/lib/multistore'
+import { createApp } from 'vue-storefront/core/app'
+import { HttpError } from 'vue-storefront/core/helpers/exceptions'
+import { prepareStoreView, storeCodeFromRoute } from 'vue-storefront/core/lib/multistore'
 import omit from 'lodash-es/omit'
 import pick from 'lodash-es/pick'
 import buildTimeConfig from 'config'
 import { AsyncDataLoader } from './lib/async-data-loader'
-import { Logger } from '@vue-storefront/core/lib/logger'
+import { Logger } from 'vue-storefront/core/lib/logger'
 
 function _commonErrorHandler (err, reject) {
   if (err.message.indexOf('query returned empty result') > 0) {

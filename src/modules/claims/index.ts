@@ -1,4 +1,4 @@
-import { createModule } from '@vue-storefront/core/lib/module'
+import { createModule } from 'vue-storefront/core/lib/module'
 import { beforeRegistration } from './hooks/beforeRegistration'
 import { module } from './store'
 

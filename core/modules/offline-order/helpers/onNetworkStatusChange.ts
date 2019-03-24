@@ -1,11 +1,11 @@
 import * as localForage from 'localforage'
-import store from '@vue-storefront/core/store'
+import store from 'vue-storefront/core/store'
 
-import EventBus from '@vue-storefront/core/compatibility/plugins/event-bus/index'
+import EventBus from 'vue-storefront/core/compatibility/plugins/event-bus/index'
 
-import UniversalStorage from '@vue-storefront/core/store/lib/storage'
-import { currentStoreView } from '@vue-storefront/core/lib/multistore'
-import { Logger } from '@vue-storefront/core/lib/logger'
+import UniversalStorage from 'vue-storefront/core/store/lib/storage'
+import { currentStoreView } from 'vue-storefront/core/lib/multistore'
+import { Logger } from 'vue-storefront/core/lib/logger'
 
 export function onNetworkStatusChange (store) {
   Logger.log('Are we online: ' + navigator.onLine, 'offline-order')()
